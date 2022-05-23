@@ -1,22 +1,30 @@
 h1{
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  
 }
 .container{
   margin: auto;
+  border-radius: 10px;
   width: 17%;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #f2f2f2;
   -webkit-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
      -moz-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
           box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
-  background-color: #333;
+  background-color: palegoldenrod;
+  padding-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .header{
-  background-color:  #81C784;
-  padding: 10px;
-  color: #fff;
+  background-color: orange;
+  padding: 15px;
+  color: #333;
   text-align: center;
-  margin: auto;
+  width: 90%;
+  margin: auto
 }
 table{
   width: 100%;
@@ -26,11 +34,12 @@ td{
 }
 .result{
   font-size: 24px;
-  padding: 16px 5px;
+  padding: 17px 7px;
   font-weight: 700;
   text-align: right;
-  width: 96%;
+  width: 100%;
   border: none;
+  border-radius: 5px;
   background-color: #F8F8F8;
 }
  .global{
@@ -38,8 +47,8 @@ td{
   font-weight: bold;
   font-size: 16px;
   border: none;
-  border-radius: 3px;
-  background-color: #F2F2F2;
+  border-radius: 10px;
+  background-color: #f2f2f2;
   width: 100%;
 }
 /*the global class padding reset for first-row class button*/
@@ -60,4 +69,24 @@ td{
 }
 .white-text{
   color: #fff;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
 }
