@@ -1,7 +1,10 @@
 body {
   background-color: #d1f3e7;
     font-size: 15pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
+    padding: 4px;
+    margin: 40px;
+    box-sizing: border-box;
 }
 .topnav {
   overflow: hidden;
@@ -27,25 +30,31 @@ color: black;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 100px;
+  border-radius: 10g0px;
   border: 3px;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
+/* *{
+  box-sizing: border-box;
+  margin: 40px;
+  padding: 0;
+  font-family: cursive;
+} */
 .boyi {
   font-family: sans-serif;
   text-align: center;
   color: black;
 }
 h2{
-  background-color: springgreen;
+  /* background-color: springgreen; */
   border: 3px;
   padding: 2px;
 }
  select {
   width : 150px;
-  padding: 0;
-  margin: 0;
+  padding: 4px;
+  margin: 14px;
   box-sizing: border-box;
   cursor: pointer;
 }
@@ -83,6 +92,3 @@ button{float:right;
   cursor:pointer;
   transition:all .3s}
 button:hover{background:#78788c;color:#fff}
-#username {
-  color: orange; background-color: #04aa6d;
-}
