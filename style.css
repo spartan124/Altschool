@@ -51,10 +51,11 @@ h2{
   border: 3px;
   padding: 2px;
 }
- select {
+
+input, select {
   width : 150px;
-  padding: 4px;
-  margin: 14px;
+  padding: 0px;
+  margin: 4px;
   box-sizing: border-box;
   cursor: pointer;
 }

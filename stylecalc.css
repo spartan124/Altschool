@@ -1,0 +1,92 @@
+h1{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  
+}
+.container{
+  margin: auto;
+  border-radius: 10px;
+  width: 40%;
+  padding: 15px;
+  border: 1px solid #f2f2f2;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+     -moz-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+          box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+  background-color: palegoldenrod;
+  padding-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header{
+  background-color: orange;
+  padding: 15px;
+  color: #333;
+  text-align: center;
+  width: 90%;
+  margin: auto
+}
+table{
+  width: 100%;
+}
+td{
+  width: 25%;
+}
+.result{
+  font-size: 24px;
+  padding: 17px 7px;
+  font-weight: 700;
+  text-align: right;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #F8F8F8;
+}
+ .global{
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+/*the global class padding reset for first-row class button*/
+.first-row{
+ padding: 7px;
+}
+.plus{
+  height: 105px;
+}
+.green{
+  background-color: #81C784;
+}
+.red{
+  background-color: #F50258
+}
+.grey{
+  background-color: #F2F2F2;
+}
+.white-text{
+  color: #fff;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
